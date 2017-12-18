@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-										"test": "test"
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/lukeloresch/conference-api#readme",
   "dependencies": {
+    "body-parser": "^1.0.1",
     "express": "^4.0.0",
-				"body-parser" : "^1.0.1",
-				"method-override": "^1.0.0",
-				"mongoose": "^3.6.13",
-				"morgan": "^1.0.0",
-				"nodemon": "^1.2.0"
+    "method-override": "^1.0.0",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.0.0",
+    "nodemon": "^1.2.0"
   }
 }
